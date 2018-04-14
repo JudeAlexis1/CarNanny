@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51051DB420785640009A457B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51051DB320785640009A457B /* AppDelegate.swift */; };
+		51051DB620785640009A457B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51051DB520785640009A457B /* ViewController.swift */; };
+		51051DB920785640009A457B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51051DB720785640009A457B /* Main.storyboard */; };
+		51051DBB20785642009A457B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51051DBA20785642009A457B /* Assets.xcassets */; };
+		51051DBE20785642009A457B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51051DBC20785642009A457B /* LaunchScreen.storyboard */; };
+		51051DC920785642009A457B /* CarNannyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51051DC820785642009A457B /* CarNannyTests.swift */; };
+		51051DD420785642009A457B /* CarNannyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51051DD320785642009A457B /* CarNannyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		51051DC520785642009A457B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51051DA820785640009A457B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51051DAF20785640009A457B;
+			remoteInfo = CarNanny;
+		};
+		51051DD020785642009A457B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51051DA820785640009A457B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51051DAF20785640009A457B;
+			remoteInfo = CarNanny;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		51051DB020785640009A457B /* CarNanny.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarNanny.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		51051DB320785640009A457B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		51051DB520785640009A457B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		51051DB820785640009A457B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		51051DBA20785642009A457B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		51051DBD20785642009A457B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		51051DBF20785642009A457B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51051DC420785642009A457B /* CarNannyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarNannyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		51051DC820785642009A457B /* CarNannyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarNannyTests.swift; sourceTree = "<group>"; };
+		51051DCA20785642009A457B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51051DCF20785642009A457B /* CarNannyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarNannyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		51051DD320785642009A457B /* CarNannyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarNannyUITests.swift; sourceTree = "<group>"; };
+		51051DD520785642009A457B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		51051DAD20785640009A457B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51051DC120785642009A457B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51051DCC20785642009A457B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51051DA720785640009A457B = {
+			isa = PBXGroup;
+			children = (
+				51051DB220785640009A457B /* CarNanny */,
+				51051DC720785642009A457B /* CarNannyTests */,
+				51051DD220785642009A457B /* CarNannyUITests */,
+				51051DB120785640009A457B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		51051DB120785640009A457B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				51051DB020785640009A457B /* CarNanny.app */,
+				51051DC420785642009A457B /* CarNannyTests.xctest */,
+				51051DCF20785642009A457B /* CarNannyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		51051DB220785640009A457B /* CarNanny */ = {
+			isa = PBXGroup;
+			children = (
+				51051DB320785640009A457B /* AppDelegate.swift */,
+				51051DB520785640009A457B /* ViewController.swift */,
+				51051DB720785640009A457B /* Main.storyboard */,
+				51051DBA20785642009A457B /* Assets.xcassets */,
+				51051DBC20785642009A457B /* LaunchScreen.storyboard */,
+				51051DBF20785642009A457B /* Info.plist */,
+			);
+			path = CarNanny;
+			sourceTree = "<group>";
+		};
+		51051DC720785642009A457B /* CarNannyTests */ = {
+			isa = PBXGroup;
+			children = (
+				51051DC820785642009A457B /* CarNannyTests.swift */,
+				51051DCA20785642009A457B /* Info.plist */,
+			);
+			path = CarNannyTests;
+			sourceTree = "<group>";
+		};
+		51051DD220785642009A457B /* CarNannyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				51051DD320785642009A457B /* CarNannyUITests.swift */,
+				51051DD520785642009A457B /* Info.plist */,
+			);
+			path = CarNannyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		51051DAF20785640009A457B /* CarNanny */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51051DD820785642009A457B /* Build configuration list for PBXNativeTarget "CarNanny" */;
+			buildPhases = (
+				51051DAC20785640009A457B /* Sources */,
+				51051DAD20785640009A457B /* Frameworks */,
+				51051DAE20785640009A457B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarNanny;
+			productName = CarNanny;
+			productReference = 51051DB020785640009A457B /* CarNanny.app */;
+			productType = "com.apple.product-type.application";
+		};
+		51051DC320785642009A457B /* CarNannyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51051DDB20785642009A457B /* Build configuration list for PBXNativeTarget "CarNannyTests" */;
+			buildPhases = (
+				51051DC020785642009A457B /* Sources */,
+				51051DC120785642009A457B /* Frameworks */,
+				51051DC220785642009A457B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51051DC620785642009A457B /* PBXTargetDependency */,
+			);
+			name = CarNannyTests;
+			productName = CarNannyTests;
+			productReference = 51051DC420785642009A457B /* CarNannyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		51051DCE20785642009A457B /* CarNannyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51051DDE20785642009A457B /* Build configuration list for PBXNativeTarget "CarNannyUITests" */;
+			buildPhases = (
+				51051DCB20785642009A457B /* Sources */,
+				51051DCC20785642009A457B /* Frameworks */,
+				51051DCD20785642009A457B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51051DD120785642009A457B /* PBXTargetDependency */,
+			);
+			name = CarNannyUITests;
+			productName = CarNannyUITests;
+			productReference = 51051DCF20785642009A457B /* CarNannyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		51051DA820785640009A457B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = wetseal;
+				TargetAttributes = {
+					51051DAF20785640009A457B = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					51051DC320785642009A457B = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 51051DAF20785640009A457B;
+					};
+					51051DCE20785642009A457B = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 51051DAF20785640009A457B;
+					};
+				};
+			};
+			buildConfigurationList = 51051DAB20785640009A457B /* Build configuration list for PBXProject "CarNanny" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 51051DA720785640009A457B;
+			productRefGroup = 51051DB120785640009A457B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				51051DAF20785640009A457B /* CarNanny */,
+				51051DC320785642009A457B /* CarNannyTests */,
+				51051DCE20785642009A457B /* CarNannyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		51051DAE20785640009A457B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51051DBE20785642009A457B /* LaunchScreen.storyboard in Resources */,
+				51051DBB20785642009A457B /* Assets.xcassets in Resources */,
+				51051DB920785640009A457B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51051DC220785642009A457B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51051DCD20785642009A457B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51051DAC20785640009A457B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51051DB620785640009A457B /* ViewController.swift in Sources */,
+				51051DB420785640009A457B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51051DC020785642009A457B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51051DC920785642009A457B /* CarNannyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51051DCB20785642009A457B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51051DD420785642009A457B /* CarNannyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		51051DC620785642009A457B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51051DAF20785640009A457B /* CarNanny */;
+			targetProxy = 51051DC520785642009A457B /* PBXContainerItemProxy */;
+		};
+		51051DD120785642009A457B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51051DAF20785640009A457B /* CarNanny */;
+			targetProxy = 51051DD020785642009A457B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		51051DB720785640009A457B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51051DB820785640009A457B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		51051DBC20785642009A457B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51051DBD20785642009A457B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		51051DD620785642009A457B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		51051DD720785642009A457B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		51051DD920785642009A457B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XX9MK2YSM8;
+				INFOPLIST_FILE = CarNanny/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JudeAlexis.CarNanny;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		51051DDA20785642009A457B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XX9MK2YSM8;
+				INFOPLIST_FILE = CarNanny/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JudeAlexis.CarNanny;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		51051DDC20785642009A457B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XX9MK2YSM8;
+				INFOPLIST_FILE = CarNannyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JudeAlexis.CarNannyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarNanny.app/CarNanny";
+			};
+			name = Debug;
+		};
+		51051DDD20785642009A457B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XX9MK2YSM8;
+				INFOPLIST_FILE = CarNannyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JudeAlexis.CarNannyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarNanny.app/CarNanny";
+			};
+			name = Release;
+		};
+		51051DDF20785642009A457B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XX9MK2YSM8;
+				INFOPLIST_FILE = CarNannyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JudeAlexis.CarNannyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarNanny;
+			};
+			name = Debug;
+		};
+		51051DE020785642009A457B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XX9MK2YSM8;
+				INFOPLIST_FILE = CarNannyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JudeAlexis.CarNannyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarNanny;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		51051DAB20785640009A457B /* Build configuration list for PBXProject "CarNanny" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51051DD620785642009A457B /* Debug */,
+				51051DD720785642009A457B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51051DD820785642009A457B /* Build configuration list for PBXNativeTarget "CarNanny" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51051DD920785642009A457B /* Debug */,
+				51051DDA20785642009A457B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51051DDB20785642009A457B /* Build configuration list for PBXNativeTarget "CarNannyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51051DDC20785642009A457B /* Debug */,
+				51051DDD20785642009A457B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51051DDE20785642009A457B /* Build configuration list for PBXNativeTarget "CarNannyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51051DDF20785642009A457B /* Debug */,
+				51051DE020785642009A457B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 51051DA820785640009A457B /* Project object */;
+}
